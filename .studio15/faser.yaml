@@ -5,16 +5,16 @@
 # (klones inn ved utstempling) — aldri i denne fila, som er lærerens.
 #
 # Per fase:
-#   kjernepraksis  — én av de fire fra referansemodellen (fast vokabular)
+#   arbeidsmaate   — Utforske | Skape | Kvalitetssikre | Levere
 #   oppdrag        — markdownfil med selve oppdragsteksten
-#   aapne          — filer editoren åpner når trinnet starter
-#   ai_start       — startprompt til AI-partneren for trinnet
+#   aapne          — filer editoren åpner når fasen starter
+#   ai_start       — startprompt til AI-partneren for fasen
 #   sjekkliste     — egenvurdering; veileder, låser aldri
 versjon: 1
 fagmodul: Tilkobling
 faser:
   - id: utforske
-    kjernepraksis: Utforske og forstå med AI
+    arbeidsmaate: Utforske
     tittel: Bli kjent med instrumentet
     oppdrag: faser/1-utforske.md
     aapne:
@@ -47,7 +47,7 @@ faser:
       - Jeg har testet i nettleseren etter hvert steg — ikke bare til slutt
 
   - id: kvalitetssikre
-    kjernepraksis: Analysere, feilsøke og kvalitetssikre
+    arbeidsmaate: Kvalitetssikre
     tittel: Hva når instrumentet ikke svarer?
     oppdrag: faser/3-kvalitetssikre.md
     aapne:

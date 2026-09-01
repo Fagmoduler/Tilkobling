@@ -17,6 +17,6 @@ før noen andre kan forstå og bruke det.
 
 ## Ferdig?
 
-Gratulerer — du har vært gjennom alle fire kjernepraksisene: utforsket,
+Gratulerer — du har vært gjennom alle fire arbeidsmåtene: utforsket,
 bygget, feilsøkt og levert. Det er den samme runden profesjonelle
 utviklere går, hver uke.

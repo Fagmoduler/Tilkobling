@@ -9,7 +9,7 @@ beskrivelse: >
   Koble til og lese/skrive til et eksternt instrument over wifi.
 kompetansetrinn: Konseptforståelse
 arbeidsmaater:
-  - Utforske og forstå med AI
+  - Utforske
 fagomraade: Automasjon
 opplevelse: studio  # studio = VS Code-editoren; enkel = chat+webedit (kommer)
 status: aktiv  # utkast vises aldri i klasse-veiviseren
