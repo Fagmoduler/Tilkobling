@@ -2,7 +2,7 @@
 # Leses av lærer-UI-et: gruppering per fagområde, sortering per kompetansetrinn.
 #
 # Kompetansetrinn: Konseptforståelse | Komponentutvikling | Systemintegrasjon | Prosjektleveranse
-# Arbeidsm??ter:    Utforske | Skape | Kvalitetssikre | Levere
+# Arbeidsmåter:    Utforske | Skape | Kvalitetssikre | Levere
 # Fagområde:       Almenfag | Automasjon | MCAD | BIM | Konfiguratorer
 navn: Tilkobling
 beskrivelse: >

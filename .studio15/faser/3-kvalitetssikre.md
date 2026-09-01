@@ -1,6 +1,6 @@
 # Trinn 3 — Hva når instrumentet ikke svarer?
 
-*Kjernepraksis: Analysere, feilsøke og kvalitetssikre*
+*Arbeidsmåte: Kvalitetssikre*
 
 Alt virker — på ditt nett, i dag. Profesjonelle løsninger tåler dager
 der ingenting virker. Nå skal du ødelegge ting med vilje.

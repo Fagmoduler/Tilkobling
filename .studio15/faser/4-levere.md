@@ -1,6 +1,6 @@
 # Trinn 4 — Gjør leveransen klar
 
-*Kjernepraksis: Dokumentere, samarbeide og levere*
+*Arbeidsmåte: Levere*
 
 Leveransen din er den levende websiden — men et prosjekt er ikke ferdig
 før noen andre kan forstå og bruke det.

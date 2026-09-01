@@ -1,6 +1,6 @@
 # Trinn 1 — Bli kjent med instrumentet
 
-*Kjernepraksis: Utforske og forstå med AI*
+*Arbeidsmåte: Utforske*
 
 Websiden din skal snakke med et instrument over wifi — en temperatursensor,
 en mikrokontroller, en måler. Men før noe kan bygges, må du forstå hvem du

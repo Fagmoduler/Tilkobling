@@ -1,6 +1,6 @@
 # Trinn 2 — Hent og vis målinger
 
-*Kjernepraksis: Skape og utvikle iterativt*
+*Arbeidsmåte: Skape*
 
 Nå vet du hvem instrumentet er. På tide å bygge — men i små steg, ikke
 alt på én gang.
