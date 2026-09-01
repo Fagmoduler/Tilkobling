@@ -1,0 +1,79 @@
+# Kjernepraksis-trinnene for denne fagmodulen (Studio 15).
+#
+# Leses av Studio 15-panelet i editoren (kommer i verksted-etappen).
+# Deltakerens fremdrift lagres i .studio15/fremdrift.yaml i PROSJEKTET
+# (klones inn ved utstempling) — aldri i denne fila, som er lærerens.
+#
+# Per trinn:
+#   kjernepraksis  — én av de fire fra referansemodellen (fast vokabular)
+#   oppdrag        — markdownfil med selve oppdragsteksten
+#   aapne          — filer editoren åpner når trinnet starter
+#   ai_start       — startprompt til AI-partneren for trinnet
+#   sjekkliste     — egenvurdering; veileder, låser aldri
+versjon: 1
+fagmodul: Tilkobling
+trinn:
+  - id: utforske
+    kjernepraksis: Utforske og forstå med AI
+    tittel: Bli kjent med instrumentet
+    oppdrag: trinn/1-utforske.md
+    aapne:
+      - src/App.svelte
+    ai_start: >
+      Jeg skal koble websiden min til et instrument over wifi. Forklar meg,
+      enkelt og på norsk, hvordan en webside kan hente data fra en annen
+      maskin på nettverket — og hjelp meg å finne ut hva slags API
+      instrumentet mitt har. Hvis jeg ikke har et ekte instrument, foreslå
+      hvordan vi kan lage et simulert et i prosjektet.
+    sjekkliste:
+      - Jeg kan forklare med egne ord hva et API er
+      - Jeg vet adressen til instrumentet mitt — eller har valgt å bygge et simulert instrument
+      - Jeg har fått et første svar fra instrumentet
+
+  - id: skape
+    kjernepraksis: Skape og utvikle iterativt
+    tittel: Hent og vis målinger
+    oppdrag: trinn/2-skape.md
+    aapne:
+      - src/App.svelte
+    ai_start: >
+      Nå skal websiden min hente en verdi fra instrumentet og vise den.
+      La oss bygge i små steg: først én henting og vis rådata, så pen
+      visning, så automatisk oppdatering. Vent på at jeg tester mellom
+      hvert steg.
+    sjekkliste:
+      - Websiden viser en ekte verdi fra instrumentet
+      - Verdien oppdaterer seg av seg selv
+      - Jeg har testet i nettleseren etter hvert steg — ikke bare til slutt
+
+  - id: analysere
+    kjernepraksis: Analysere, feilsøke og kvalitetssikre
+    tittel: Hva når instrumentet ikke svarer?
+    oppdrag: trinn/3-analysere.md
+    aapne:
+      - src/App.svelte
+    ai_start: >
+      Nå skal vi gjøre løsningen robust. Hjelp meg å finne ut hva som kan
+      gå galt når websiden snakker med instrumentet (borte, tregt, rare
+      svar), og la meg prøve å forutsi feilen FØR vi tester den. Så bygger
+      vi håndtering for én feil om gangen.
+    sjekkliste:
+      - Jeg har provosert frem minst to ulike feil med vilje
+      - Websiden sier tydelig ifra når instrumentet ikke svarer, uten å kræsje
+      - Jeg kan forklare hva timeout betyr og hvorfor vi trenger det
+
+  - id: levere
+    kjernepraksis: Dokumentere, samarbeide og levere
+    tittel: Gjør leveransen klar
+    oppdrag: trinn/4-levere.md
+    aapne:
+      - README.md
+    ai_start: >
+      Prosjektet skal leveres. Hjelp meg å skrive en kort README på norsk
+      som forklarer hva løsningen gjør, hvordan den kobles til instrumentet
+      og hva som var vanskeligst. Still meg spørsmålene — jeg skriver
+      svarene med egne ord.
+    sjekkliste:
+      - README forklarer prosjektet slik at en medelev kan ta det i bruk
+      - Koden er ryddet — ting vi ikke bruker er fjernet
+      - Websiden min er leveransen, og jeg har vist den til noen
