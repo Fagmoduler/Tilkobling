@@ -1,4 +1,4 @@
-# Trinn 4 — Gjør leveransen klar
+# Fase 4 — Gjør leveransen klar
 
 *Arbeidsmåte: Levere*
 

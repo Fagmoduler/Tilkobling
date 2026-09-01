@@ -1,4 +1,4 @@
-# Trinn 1 — Bli kjent med instrumentet
+# Fase 1 — Bli kjent med instrumentet
 
 *Arbeidsmåte: Utforske*
 
@@ -19,7 +19,7 @@ snakker med.
 å bygge et *simulert* instrument i prosjektet — et lite endepunkt som
 svarer med oppdiktede målinger. Da eier du begge sider av samtalen.
 
-## Du er klar for neste trinn når
+## Du er klar for neste fase når
 
 sjekklisten i panelet er huket av — du bestemmer selv, den låser ingenting.
 Poenget er at du kan *forklare* det du har funnet, ikke bare at det virket.

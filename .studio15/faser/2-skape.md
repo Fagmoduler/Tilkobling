@@ -1,4 +1,4 @@
-# Trinn 2 — Hent og vis målinger
+# Fase 2 — Hent og vis målinger
 
 *Arbeidsmåte: Skape*
 

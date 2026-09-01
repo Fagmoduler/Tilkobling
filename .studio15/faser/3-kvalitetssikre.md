@@ -1,4 +1,4 @@
-# Trinn 3 — Hva når instrumentet ikke svarer?
+# Fase 3 — Hva når instrumentet ikke svarer?
 
 *Arbeidsmåte: Kvalitetssikre*
 
