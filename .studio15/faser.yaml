@@ -1,10 +1,10 @@
-# Kjernepraksis-trinnene for denne fagmodulen (Studio 15).
+# Fasene i denne fagmodulen (Studio 15).
 #
 # Leses av Studio 15-panelet i editoren (kommer i verksted-etappen).
 # Deltakerens fremdrift lagres i .studio15/fremdrift.yaml i PROSJEKTET
 # (klones inn ved utstempling) — aldri i denne fila, som er lærerens.
 #
-# Per trinn:
+# Per fase:
 #   kjernepraksis  — én av de fire fra referansemodellen (fast vokabular)
 #   oppdrag        — markdownfil med selve oppdragsteksten
 #   aapne          — filer editoren åpner når trinnet starter
@@ -12,11 +12,11 @@
 #   sjekkliste     — egenvurdering; veileder, låser aldri
 versjon: 1
 fagmodul: Tilkobling
-trinn:
+faser:
   - id: utforske
     kjernepraksis: Utforske og forstå med AI
     tittel: Bli kjent med instrumentet
-    oppdrag: trinn/1-utforske.md
+    oppdrag: faser/1-utforske.md
     aapne:
       - src/App.svelte
     ai_start: >
@@ -31,9 +31,9 @@ trinn:
       - Jeg har fått et første svar fra instrumentet
 
   - id: skape
-    kjernepraksis: Skape og utvikle iterativt
+    arbeidsmaate: Skape
     tittel: Hent og vis målinger
-    oppdrag: trinn/2-skape.md
+    oppdrag: faser/2-skape.md
     aapne:
       - src/App.svelte
     ai_start: >
@@ -46,10 +46,10 @@ trinn:
       - Verdien oppdaterer seg av seg selv
       - Jeg har testet i nettleseren etter hvert steg — ikke bare til slutt
 
-  - id: analysere
+  - id: kvalitetssikre
     kjernepraksis: Analysere, feilsøke og kvalitetssikre
     tittel: Hva når instrumentet ikke svarer?
-    oppdrag: trinn/3-analysere.md
+    oppdrag: faser/3-kvalitetssikre.md
     aapne:
       - src/App.svelte
     ai_start: >
@@ -63,9 +63,9 @@ trinn:
       - Jeg kan forklare hva timeout betyr og hvorfor vi trenger det
 
   - id: levere
-    kjernepraksis: Dokumentere, samarbeide og levere
+    arbeidsmaate: Levere
     tittel: Gjør leveransen klar
-    oppdrag: trinn/4-levere.md
+    oppdrag: faser/4-levere.md
     aapne:
       - README.md
     ai_start: >
